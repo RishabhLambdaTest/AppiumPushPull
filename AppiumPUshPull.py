@@ -21,12 +21,12 @@ desired_caps = {
 def startingTest():
     if os.environ.get("LT_USERNAME") is None:
         # Enter LT username here if environment variables have not been added
-        username = "rishabhsinghlambdatest"
+        username = "##########"
     else:
         username = os.environ.get("LT_USERNAME")
     if os.environ.get("LT_ACCESS_KEY") is None:
         # Enter LT accesskey here if environment variables have not been added
-        accesskey = "7f4Xoi2I7A1H7f4Y84emKmZKhE0Cn440Obyy1WGIcud425cWei"
+        accesskey = "###########"
     else:
         accesskey = os.environ.get("LT_ACCESS_KEY")
     try:
